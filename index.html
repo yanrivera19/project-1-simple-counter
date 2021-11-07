@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+	<link href="stylesheet.css" rel="stylesheet">
+
+	<title>Simple Counter</title>
+</head>
+<body class="bg-light">
+	<div class="container">
+		<div class="content countainer-fluid text-center">
+			<h1 class="pb-2 heading-one text-primary">Simple Counter</h1>
+
+			<p class="fs-5 pb-3">Press the buttons and see what happens!</p>
+
+			<p class="pb-3 fs-5" id="demo">0</p>
+
+			<button class="mx-1 btn btn-primary" type="button" onclick="increaseCount()"><i class="fas fa-plus"></i></button>
+
+			<button class="mx-1 btn btn-primary" type="button" onclick="decreaseCount()"><i class="fas fa-minus"></i></button>
+	    </div>
+  </div>
+	<script src="counter.js"></script>
+</body>
+</html>

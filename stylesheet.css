@@ -1,0 +1,15 @@
+.content {
+	padding-top: 150px;
+}
+
+.heading-one {
+	font-size: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+
+.heading-one {
+	font-size: 60px;
+}
+
+}
